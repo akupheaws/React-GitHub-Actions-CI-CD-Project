@@ -6,7 +6,7 @@
 
 ## 📄 Workflows
 
-### 1. Deployment Exercise 1
+### 1. Deployment 1
 - **Trigger**: On every `push`
 - **Purpose**: Runs a linear CI/CD pipeline.
 - **Steps**:
@@ -17,7 +17,7 @@
   - Build the project
   - Deploy (currently just a placeholder)
 
-### 2. Deployment Exercise 2
+### 2. Deployment 2
 - **Trigger**: On every `push`
 - **Purpose**: Runs the same steps as above, but in separate dependent jobs:
   - `lint` → `test` → `deploy`
